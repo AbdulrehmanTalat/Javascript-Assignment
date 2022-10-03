@@ -1,0 +1,16 @@
+let places = ['Austria','Finland','BlackForest','Capadocia','SwissAlps'];
+console.log(places.join(','));
+let alphabetical = [...places].sort();
+console.log(alphabetical.join(','));
+console.log(places.join(','));
+let reverseAlphabetical = [...places].reverse();
+console.log(reverseAlphabetical.join(','));
+console.log(places.join(','));
+places = [...places].reverse();
+console.log(places.join(','));
+places = [...places].reverse();
+console.log(places.join(','));
+places = [...places].sort();
+console.log(places.join(','));
+places = [...places].reverse();
+console.log(places.join(','));
